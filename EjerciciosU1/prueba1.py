@@ -1,4 +1,4 @@
-edad = int(input("Introduzca su edad: "))
+edad = input("Introduzca su edad: "))
 if edad >= 18:
     print("Toma una cerveza!")
 else:
