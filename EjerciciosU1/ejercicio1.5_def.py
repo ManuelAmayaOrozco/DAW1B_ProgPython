@@ -1,8 +1,7 @@
-def ivacion(precio: float):
-    iva = float(input("Dime el IVA a aplicar: "))
-    total = prec * iva
+def ivacion(precio: float, iv: float):
+    total = precio * iv
     print("El precio total con IVA es", total)
 
 prec = int(input("Dime el precio del producto sin IVA: "))
-
-ivacion(prec)
+iva = float(input("Dime el IVA a aplicar: "))
+ivacion(prec, iva)
