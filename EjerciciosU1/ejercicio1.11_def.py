@@ -1,5 +1,5 @@
 def reemplazo(x: int):
-    suma = (n * (n + 1)) / 2
+    suma = (x * (x + 1)) / 2
     return suma
 
 print("(n * (n + 1)) / 2")
