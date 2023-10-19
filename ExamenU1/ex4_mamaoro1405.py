@@ -27,7 +27,7 @@ Recorre la lista y dependiendo del tipo de dato de cada elemento muestra la sigu
 miLista = [43, "pedro pablo", 17.66, 8.99, "maría jesús", False, "ANA esperanza", 25, True, 9.99]
 
 cont = 0
-while (cont <= len(miLista)):
+while (cont < len(miLista)):
     if type(miLista[cont]) is int:
         edad = miLista[cont]
         print("Tienes {años} años.".format(años = miLista[cont]))
