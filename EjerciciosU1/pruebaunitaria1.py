@@ -1,12 +1,11 @@
-def suma(num1, num2):
-    return num1 + num2
 
-print(suma(3, 2))
-print("La suma de", 3, "+", 2, "es", suma(3, 2))
-print("La suma de " + str(3) + " + " + str(2) + " es " + str(suma(3, 2)))
-res = "La suma de "
-res += str(3)
-res += " + " + str(2)
-res += " es " + str(suma(3, 2))
-print(res)
-print(f"La suma de {3} + {2} es {suma(3, 2)}")
+def mayor(n1, n2):
+    if (n1 == n2):
+        return 0
+    else:
+        if (n1 > n2):
+            return n1
+        else:
+            return n2  
+
+print(mayor(1,2))

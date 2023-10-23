@@ -1,21 +1,18 @@
 import pytest
-from pruebaunitaria1 import suma
+from pruebaunitaria1 import mayor
 
-def test_suma():
-    assert suma(1, 1) == 2
-    assert suma(0, 0) == 0
-    assert suma(100, -100) == 0
+def test_mayor():
+    assert mayor(1, 2) == 2
+    assert mayor(5, 3) == 5
+    assert mayor(8, 8) == 0
     
 @pytest.mark.parametrize(
-    "input_n1, input_n2, expected",
-    [
-      (0, 0, 1),
-      (0, 0, 0),
-      (100, -100, 0),
-      (-15, -1, -16),
-      (-3, 8, 5),
-      (9, suma(-1, -2), 6)
-    ]
-  )
-def test_suma_params(input_n1, input_n2, expected):
-    assert suma(input_n1, input_n2) == expected
+  "input_n1, input_n2, expected",
+  [
+    (2, 3, 3),
+    (5, 3, 5),
+    (8, 8, 0)
+  ]
+ )
+def test_mayor_params(input_n1, input_n2, expected):
+    assert mayor(input_n1, input_n2) == expected
