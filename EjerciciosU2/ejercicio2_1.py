@@ -3,3 +3,7 @@ def edad(ed: int):
         return "Eres mayor de edad."
     else:
        return "No eres mayor de edad."
+
+
+años = int(input("Dime tu edad: "))
+print(edad(años))
