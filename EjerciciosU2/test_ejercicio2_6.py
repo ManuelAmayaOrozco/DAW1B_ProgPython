@@ -1,5 +1,5 @@
 import pytest
-from ejercicio2_6 import asiggrupo
+from src.ejercicio2_6 import asiggrupo
 
 @pytest.mark.parametrize(
     "input_n1, input_n2, expected",

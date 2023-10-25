@@ -9,5 +9,8 @@ def pizzatime(elec: str):
         else:
             return "Su pizza lleva: Mozzarella, Tomate, {ing}.".format(ing = ing)
     
-eleccion = input("¿Quieres que tu pizza sea vegetariana? (V para Vegetariana, N para Normal): ")
-print(pizzatime(eleccion))
+def main():
+    eleccion = input("¿Quieres que tu pizza sea vegetariana? (V para Vegetariana, N para Normal): ")
+    print(pizzatime(eleccion))
+    if __name__ == '__main__':
+        main()

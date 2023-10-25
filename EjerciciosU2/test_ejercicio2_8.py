@@ -1,5 +1,5 @@
 import pytest
-from ejercicio2_8 import rendimiento
+from src.ejercicio2_8 import rendimiento
 
 @pytest.mark.parametrize(
     "input_n1, expected",

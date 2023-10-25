@@ -10,5 +10,8 @@ def renta(din: int):
     else:
         return "Tu tipo impositivo es del 45%."
     
-dinren = int(input("¿Cuánto pagas por tu renta (en euros)?: "))
-print(renta(dinren))
+def main():
+    dinren = int(input("¿Cuánto pagas por tu renta (en euros)?: "))
+    print(renta(dinren))
+    if __name__ == '__main__':
+        main()

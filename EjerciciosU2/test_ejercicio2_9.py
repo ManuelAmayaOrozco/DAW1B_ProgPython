@@ -1,5 +1,5 @@
 import pytest
-from ejercicio2_9 import precio
+from src.ejercicio2_9 import precio
 
 @pytest.mark.parametrize(
     "input_n1, expected",

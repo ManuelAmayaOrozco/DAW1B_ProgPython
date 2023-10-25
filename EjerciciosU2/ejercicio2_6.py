@@ -9,6 +9,9 @@ def asiggrupo(nom: str, sex: int):
     elif((nom == "N" or nom == "O" or nom == "P" or nom == "Q" or nom == "R" or nom == "S" or nom == "T" or nom == "U" or nom == "V" or nom == "W" or nom == "X" or nom == "Y" or nom == "Z") and sex == 2):
         return "Eres parte del grupo B."
     
-nombre = input("Dime tu nombre: ")
-sexo = int(input("¿Eres hombre o mujer? (Escribe solo 1 para Hombre o 2 para Mujer): "))
-print(asiggrupo(nombre, sexo))
+def main():
+    nombre = input("Dime tu nombre: ")
+    sexo = int(input("¿Eres hombre o mujer? (Escribe solo 1 para Hombre o 2 para Mujer): "))
+    print(asiggrupo(nombre, sexo))
+    if __name__ == '__main__':
+        main()

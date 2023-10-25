@@ -1,5 +1,5 @@
 import pytest
-from ejercicio2_5 import tributar
+from src.ejercicio2_5 import tributar
 
 @pytest.mark.parametrize(
     "input_n1, input_n2, expected",

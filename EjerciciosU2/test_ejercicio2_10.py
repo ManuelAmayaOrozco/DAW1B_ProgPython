@@ -1,5 +1,5 @@
 import pytest
-from ejercicio2_10 import pizzatime
+from src.ejercicio2_10 import pizzatime
 
 @pytest.mark.parametrize(
     "input_n1, expected",

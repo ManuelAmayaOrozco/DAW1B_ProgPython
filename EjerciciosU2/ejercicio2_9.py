@@ -5,6 +5,9 @@ def precio(ed: int):
         return "Tiene que pagar 5€."
     else:
         return "Tiene que pagar 10€."
-    
-edad = int(input("Dime tu edad: "))
-print(precio(edad))
+  
+def main():  
+    edad = int(input("Dime tu edad: "))
+    print(precio(edad))
+    if __name__ == '__main__':
+        main()

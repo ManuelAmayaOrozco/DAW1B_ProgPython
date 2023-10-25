@@ -1,5 +1,5 @@
 import pytest
-from ejercicio2_4 import paridad
+from src.ejercicio2_4 import paridad
 
 @pytest.mark.parametrize(
     "input_n1, expected",

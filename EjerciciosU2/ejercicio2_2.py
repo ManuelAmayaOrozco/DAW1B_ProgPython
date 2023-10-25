@@ -7,5 +7,8 @@ def password(code: str):
     else:
         return "La contraseña introducida no coincide con la contraseña guardada."
 
-contra = input("Introduce una contraseña para guardar: ")
-print(password(contra))
+def main():
+    contra = input("Introduce una contraseña para guardar: ")
+    print(password(contra))
+    if __name__ == '__main__':
+        main()

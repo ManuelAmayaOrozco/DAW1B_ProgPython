@@ -5,5 +5,8 @@ def paridad(n: int):
     else:
         return "El número es impar."
     
-num = int(input("Dime un número: "))
-print(paridad(num))
+def main():    
+    num = int(input("Dime un número: "))
+    print(paridad(num))
+    if __name__ == '__main__':
+        main()
