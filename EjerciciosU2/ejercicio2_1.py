@@ -4,6 +4,5 @@ def edad(ed: int):
     else:
        return "No eres mayor de edad."
 
-
 años = int(input("Dime tu edad: "))
 print(edad(años))
